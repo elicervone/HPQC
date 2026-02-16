@@ -21,11 +21,14 @@ int main() {
         "M 0 1\n";
 
     // Create circuit
+    // Vediamo quanto spazio serve
     int64_t bufferSize;
     custabilizerCircuitSizeFromString(handle, circuitString, &bufferSize);
+    // Allochiamo lo spazio necessario sulla GPU
     void* bufferDevice;
     cudaMalloc(&bufferDevice, bufferSize);
 
+    // creazione del circuito
     custabilizerCircuit_t circuit;
     custabilizerCreateCircuitFromString(handle, circuitString, bufferDevice,
                                        bufferSize, &circuit);
@@ -53,6 +56,7 @@ int main() {
     cudaMalloc(&zTableDevice, bitTableBytes);
     cudaMalloc(&mTableDevice, mTableBytes);
 
+    // inizializzazione
     cudaMemset(xTableDevice, 0, bitTableBytes);
     cudaMemset(zTableDevice, 0, bitTableBytes);
     cudaMemset(mTableDevice, 0, mTableBytes);
@@ -67,6 +71,7 @@ int main() {
                                           xTableDevice, zTableDevice, mTableDevice,
                                           stream);
 
+    // aspetta che la GPU finisca
     cudaStreamSynchronize(stream);
 
     // aggiunto io per vedere i risultati delle misure, non so se è il modo giusto ma almeno vedo se funziona o no
