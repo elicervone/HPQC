@@ -5,11 +5,8 @@
 
 import stim
 import cuquantum.stabilizer as cust
-import time
-import torch  # solo per sincronizzare la GPU
 
 num_shots = 100000
-#print(f"Simulando {num_shots} esecuzioni del circuito...")
 
 p = 0.001
 d = 10
@@ -31,24 +28,4 @@ sim = cust.FrameSimulator(
     num_detectors=circ_stim.num_detectors,
 )
 
-start = torch.cuda.Event(enable_timing=True)
-end = torch.cuda.Event(enable_timing=True)
-
-start.record()
 sim.apply(circ)
-end.record()
-
-end.synchronize()
-
-print("Tempo:", start.elapsed_time(end) / 1000, "secondi")
-
-# Stampiamo le prime 5 righe della tabella di Pauli.
-# L'informazione che viene stampata è la seguente:
-# - ogni riga rappresenta i qubit di un frame (un'istanza di esecuzione del circuito)
-# - . -> indica che il qubit è in uno stato di identità (non è stato applicato alcun operatore di Pauli)
-# - X, Y, Z -> indicano che il qubit è stato colpito da un errore di tipo X, Y o Z rispettivamente
-
-'''pauli_table = sim.get_pauli_table()
-num_frames_print = 5
-for i in range(num_frames_print):
-    print(pauli_table[i])'''
