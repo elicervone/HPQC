@@ -1,0 +1,31 @@
+Operation,d,Total (MB),Avg (MB),Min (MB),Max (MB)
+[CUDA memcpy Device-to-Host],5,0.0,0.0,0.0,0.0
+[CUDA memcpy Device-to-Host],10,0.0,0.0,0.0,0.0
+[CUDA memcpy Device-to-Host],15,0.0,0.0,0.0,0.0
+[CUDA memcpy Device-to-Host],25,0.0,0.0,0.0,0.0
+[CUDA memcpy Device-to-Host],35,0.0,0.0,0.0,0.0
+[CUDA memcpy Device-to-Host],45,0.0,0.0,0.0,0.0
+[CUDA memcpy Device-to-Host],55,0.0,0.0,0.0,0.0
+[CUDA memcpy Device-to-Host],65,0.0,0.0,0.0,0.0
+[CUDA memcpy Device-to-Host],75,0.0,0.0,0.0,0.0
+[CUDA memcpy Device-to-Host],84,0.0,0.0,0.0,0.0
+[CUDA memcpy Host-to-Device],5,0.014,0.014,0.014,0.014
+[CUDA memcpy Host-to-Device],10,0.051,0.051,0.051,0.051
+[CUDA memcpy Host-to-Device],15,0.11300000000000002,0.11300000000000002,0.11300000000000002,0.11300000000000002
+[CUDA memcpy Host-to-Device],25,0.312,0.312,0.312,0.312
+[CUDA memcpy Host-to-Device],35,0.61,0.61,0.61,0.61
+[CUDA memcpy Host-to-Device],45,1.009,1.009,1.009,1.009
+[CUDA memcpy Host-to-Device],55,1.508,1.508,1.508,1.508
+[CUDA memcpy Host-to-Device],65,2.106,2.106,2.106,2.106
+[CUDA memcpy Host-to-Device],75,2.805,2.805,2.805,2.805
+[CUDA memcpy Host-to-Device],84,3.5189999999999997,3.5189999999999997,3.5189999999999997,3.5189999999999997
+[CUDA memset],5,1.6000000000000003,0.8000000000000002,0.8000000000000002,0.8000000000000002
+[CUDA memset],10,5.725,2.862,2.862,2.862
+[CUDA memset],15,12.35,6.175,6.175,6.175
+[CUDA memset],25,33.1,16.55,16.55,16.55
+[CUDA memset],35,63.85,31.925,31.925,31.925
+[CUDA memset],45,104.6,52.3,52.3,52.3
+[CUDA memset],55,155.35,77.675,77.675,77.675
+[CUDA memset],65,216.1,108.05,108.05,108.05
+[CUDA memset],75,286.85,143.425,143.425,143.425
+[CUDA memset],84,359.075,179.537,179.537,179.537

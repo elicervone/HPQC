@@ -1,0 +1,4 @@
+ID,Kernel Name,dram__cycles_active.avg [cycle],dram__cycles_elapsed.avg [cycle],gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed [%],gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed [%],gpu__time_duration.sum [ns],sm__warps_active.avg.pct_of_peak_sustained_active [%]
+0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",44971.05,40494668.8,0.175,0.10900000000000001,5959574.4,3.124
+1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",79229.1,40488908.8,0.21600000000000003,0.196,5960256.0,3.127
+2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",155637142.8,676397171.2,23.012,23.012,99441139.2,36.2

@@ -1,0 +1,84 @@
+==ERROR== LaunchFailed
+==ERROR== For more information, see /tmp/nsight-compute-437d-c25e.log
+==PROF== Trying to shutdown target application
+==ERROR== The application returned an error code (9).
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_active.avg","cycle","197250.50"
+"0","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_elapsed.avg","cycle","197045120"
+"0","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed","%","0.10"
+"0","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed","%","0.10"
+"0","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__time_duration.sum","ns","29241760"
+"0","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","3.12"
+"1","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_active.avg","cycle","nan"
+"1","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_elapsed.avg","cycle","nan"
+"1","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed","%","nan"
+"1","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed","%","nan"
+"1","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__time_duration.sum","ns","nan"
+"1","70546","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","nan"
+==PROF== Connected to process 72223 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72223
+==PROF== Connected to process 72254 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72254
+==PROF== Connected to process 72288 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72288
+==PROF== Connected to process 72322 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72322
+==PROF== Connected to process 72356 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72356
+==PROF== Connected to process 72384 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72384
+==PROF== Connected to process 72418 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72418
+==PROF== Creating report from application replay data: 0%..............100%
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_active.avg","cycle","288843"
+"0","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_elapsed.avg","cycle","194971264"
+"0","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed","%","0.15"
+"0","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed","%","0.15"
+"0","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__time_duration.sum","ns","28679712"
+"0","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","3.13"
+"1","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_active.avg","cycle","289862"
+"1","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_elapsed.avg","cycle","194811392"
+"1","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed","%","0.15"
+"1","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed","%","0.15"
+"1","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__time_duration.sum","ns","28687520"
+"1","72075","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","3.13"
+"2","72075","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_active.avg","cycle","1841031844"
+"2","72075","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_elapsed.avg","cycle","7349579136"
+"2","72075","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed","%","25.05"
+"2","72075","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed","%","25.05"
+"2","72075","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","gpu__time_duration.sum","ns","1081221728"
+"2","72075","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","36.04"
+==PROF== Disconnected from process 72731
+==PROF== Connected to process 72765 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72765
+==PROF== Connected to process 72799 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72799
+==PROF== Connected to process 72833 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72833
+==PROF== Connected to process 72867 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72867
+==PROF== Connected to process 72901 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72901
+==PROF== Connected to process 72929 (/home/elisa/miniconda3/envs/cuq_stab/bin/python3.11)
+==PROF== Disconnected from process 72929
+==PROF== Creating report from application replay data: 0%..............100%
+"ID","Process ID","Process Name","Host Name","Kernel Name","Context","Stream","Block Size","Grid Size","Device","CC","Section Name","Metric Name","Metric Unit","Metric Value"
+"0","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_active.avg","cycle","242769"
+"0","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_elapsed.avg","cycle","195064320"
+"0","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed","%","0.12"
+"0","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed","%","0.12"
+"0","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__time_duration.sum","ns","28725024"
+"0","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","3.13"
+"1","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_active.avg","cycle","246497"
+"1","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_elapsed.avg","cycle","195127680"
+"1","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed","%","0.13"
+"1","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed","%","0.13"
+"1","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","gpu__time_duration.sum","ns","28706176"
+"1","72597","python3.11","127.0.0.1","validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)","1","7","(1, 1, 1)","(1, 1, 1)","0","7.5","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","3.12"
+"2","72597","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_active.avg","cycle","1848292416.50"
+"2","72597","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","dram__cycles_elapsed.avg","cycle","7338909440"
+"2","72597","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed","%","25.18"
+"2","72597","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed","%","25.18"
+"2","72597","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","gpu__time_duration.sum","ns","1080010080"
+"2","72597","python3.11","127.0.0.1","void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)","1","7","(128, 1, 1)","(98, 1, 1)","0","7.5","Command line profiler metrics","sm__warps_active.avg.pct_of_peak_sustained_active","%","35.99"
