@@ -1,0 +1,6 @@
+Distanza,Tempo di esecuzione (s),User time (seconds),System time (seconds),Percent of CPU this job got (%),Elapsed (wall clock) time (s),Average shared text size (kbytes),Average unshared data size (kbytes),Average stack size (kbytes),Average total size (kbytes),Maximum resident set size (kbytes),Average resident set size (kbytes),Major (requiring I/O) page faults,Minor (reclaiming a frame) page faults,Voluntary context switches,Involuntary context switches,Swaps,File system inputs,File system outputs,Socket messages sent,Socket messages received,Signals delivered,Page size (bytes)
+40,190.33216368500052,164.58,6.09,89,190.94,0,0,0,0,7240296,0,56061,1301486,67647,2538,0,2754912,0,0,0,0,4096
+40,194.60958520500026,176.45,2.49,91,195.39,0,0,0,0,7588936,0,9799,254540,15991,455,0,453664,0,0,0,0,4096
+40,183.64310828899943,182.50,1.73,100,184.21,0,0,0,0,7577456,0,1412,51831,6968,409,0,44392,0,0,0,0,4096
+40,164.0881740169998,154.24,2.61,95,164.52,0,0,0,0,7588244,0,23245,206828,27421,504,0,1461416,0,0,0,0,4096
+40,169.36104618800073,159.92,2.64,95,169.8,0,0,0,0,7594296,0,20037,190149,24207,468,0,1236576,0,0,0,0,4096
