@@ -107,6 +107,18 @@ def devstd_metriche(colonne):
 
     devstd.to_csv("metriche_devstd.csv")   # salva il csv con le deviazioni standard
 
+def coefficiente_di_variazione(colonne):
+    # leggi i csv con le medie e le deviazioni standard
+    df_medie = pd.read_csv("metriche_medie.csv")
+    df_devstd = pd.read_csv("metriche_devstd.csv")
+
+    coefficienti = df_medie.copy()
+
+    for col in colonne:
+        coefficienti[col] = df_devstd[col] / df_medie[col]
+
+    coefficienti.to_csv("coefficiente_di_variazione.csv")   # salva il csv con i coefficienti di variazione
+
 if __name__ == "__main__":
     raccolta_metriche()
     colonne = ["Tempo di esecuzione (s)", "User time (seconds)", "System time (seconds)", "Percent of CPU this job got (%)", "Elapsed (wall clock) time (s)", 
