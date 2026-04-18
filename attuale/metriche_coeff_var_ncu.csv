@@ -1,0 +1,109 @@
+Distanza,ID,Kernel Name,Metric Name,Coefficiente di Variazione
+5,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,267.0838861069775
+5,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.1225435656689656
+5,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,196.5539654282496
+5,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,266.81717757670714
+5,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.0503905211596647
+5,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.15467367644560676
+5,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,12.782886947790459
+5,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.08098436236236758
+5,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,12.73487844736887
+5,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,12.73487844736887
+5,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.07825884041955203
+5,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.15467367644561
+5,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_active.avg,30.981073171953856
+5,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_elapsed.avg,1.1217307022876868
+5,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,0.8665025973652438
+5,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,30.966511106905347
+5,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__time_duration.sum,0.925576468623876
+5,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.28173709567781624
+10,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,3.4805774203482907
+10,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.03728555711321619
+10,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,115.11040623967051
+10,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,0.0
+10,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.09846651241614997
+10,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.22627416997968963
+10,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,1.1934291665595738
+10,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.054253183553723355
+10,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,0.0
+10,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,0.0
+10,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.0
+10,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.0
+10,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_active.avg,1.543635032626579
+10,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_elapsed.avg,1.0319615225598457
+10,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,2.542678493992727
+10,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,2.542678493992727
+10,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__time_duration.sum,0.9811653926033183
+10,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.29271703374633945
+15,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,257.90409788554496
+15,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.05632111783058218
+15,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,81.93015884016131
+15,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,250.14890619250977
+15,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.05538828525416109
+15,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.10132257802525473
+15,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,263.4605011432861
+15,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.24046367691114723
+15,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,97.41649153146956
+15,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,257.1197723688308
+15,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.36752720455493254
+15,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.1653001854975416
+15,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_active.avg,0.7844268962173271
+15,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_elapsed.avg,0.7145072635118374
+15,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,0.7135383428865527
+15,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,0.7135383428865527
+15,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__time_duration.sum,0.3074891234623346
+15,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.18869508626352463
+25,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,140.36230282151303
+25,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.05709100733107811
+25,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,63.81663073428931
+25,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,144.18238669716743
+25,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.06107623000888668
+25,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.16530018549753842
+25,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,81.97407409601522
+25,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.03943336214186834
+25,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,63.93434894844129
+25,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,82.4154643270229
+25,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.03520712111677822
+25,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.15447582076739047
+25,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_active.avg,0.8586838366290415
+25,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_elapsed.avg,0.6262622363424448
+25,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,1.1484120743374875
+25,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,1.1484120743374875
+25,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__time_duration.sum,0.6424326942291401
+25,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.2581555390216619
+35,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,0.5885468541990202
+35,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.048074905820189896
+35,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,0.0
+35,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,0.0
+35,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.03745251184984337
+35,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.0
+35,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,47.38374926705114
+35,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.04647065665409209
+35,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,37.235148733859866
+35,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,49.09472166471453
+35,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.036397802938562714
+35,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.10132257802525793
+35,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_active.avg,0.6570968553031271
+35,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_elapsed.avg,0.7790148962869925
+35,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,0.7024512071338622
+35,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,0.7024512071338622
+35,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__time_duration.sum,0.5423575569102874
+35,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.12445418938526769
+45,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,1.3724291767997594
+45,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.06076303589280063
+45,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,3.764616262105178
+45,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,3.764616262105178
+45,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.028919417847829365
+45,0,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.16530018549753842
+45,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_active.avg,0.9841245861550859
+45,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",dram__cycles_elapsed.avg,0.37111780493608426
+45,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,2.8488987929444143
+45,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,2.8488987929444143
+45,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",gpu__time_duration.sum,0.04555075393206275
+45,1,"validate_circuit_kernel(Circuit, unsigned long, unsigned long, int *, char *, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.13505349819211082
+45,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_active.avg,0.24294754873928362
+45,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",dram__cycles_elapsed.avg,0.3067752128827061
+45,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed,0.29306089434749855
+45,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed,0.29306089434749855
+45,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",gpu__time_duration.sum,0.3010834169684846
+45,2,"void circuit_kernel_batch_plain_stack<1>(unsigned int *, unsigned int *, Circuit, unsigned long, unsigned long, unsigned int *, unsigned long, unsigned long, unsigned long)",sm__warps_active.avg.pct_of_peak_sustained_active,0.21719054808932847

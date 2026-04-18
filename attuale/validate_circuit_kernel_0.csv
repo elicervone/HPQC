@@ -1,0 +1,7 @@
+Distanza,dram__cycles_active.avg [cycle],dram__cycles_elapsed.avg [cycle],gpu__compute_memory_throughput.avg.pct_of_peak_sustained_elapsed [%],gpu__dram_throughput.avg.pct_of_peak_sustained_elapsed [%],gpu__time_duration.sum [ns],sm__warps_active.avg.pct_of_peak_sustained_active [%]
+5,5706.1,1784921.6,0.479,0.3199999999999999,262688.0,3.123
+10,1544.0,6554176.0,0.215,0.02,965152.0,3.125
+15,14385.6,14615641.6,0.265,0.101,2151040.0,3.121
+25,44971.05,40494668.8,0.175,0.109,5959574.4,3.124
+35,141550.3,79445952.0,0.18,0.18,11692198.4,3.12
+45,149541.6,131418560.0,0.112,0.112,19345644.8,3.124
